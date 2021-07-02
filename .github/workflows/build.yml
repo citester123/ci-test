@@ -5,3 +5,5 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: AvadoDServer/ci-build-action@main
+        with:
+          rpcToken: ${{ secrets.RPC_TOKEN }}
